@@ -22,3 +22,103 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.apple-pie {
+  width: 100%;
+}
+
+.image-container {
+  position: relative
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.image-container h1 {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #fff; 
+  text-align: center; 
+  font-size: 70px;
+}
+
+.s1-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 400px;
+  
+  
+   
+}
+
+.s1-container p {
+  text-align: center; 
+  width: 850px;
+  font-size:x-large;
+  text-indent: 0.1em
+}
+
+.div1-container {
+  text-align: center; /* center the content horizontally */
+}
+
+.div1-container img {
+  display: block; 
+  margin: auto;
+  margin-top: -100px;
+  height: 50px;
+  width: 300px;
+}
+
+.separator {
+  border: none; 
+  height: 1px; 
+  background-color: grey; 
+  margin: 20px 100px; 
+}
+
+.s2-container {
+  display: flex; 
+  justify-content: left; 
+  align-items: left; 
+  height: 300px; 
+  margin-left: 200px;
+}
+
+.s2-container ul {
+  text-align: left; 
+  width: 550px;
+  list-style: "- ";
+  font-size: large;
+  margin-left: 60px;
+  margin-top: 35px;
+}
+
+.header2, .header3 {
+  margin-left: 230px;
+}
+
+.clock2 {
+  display: block; 
+  margin: auto;
+  margin-top: -50px;
+  height: 60px;
+  width: 300px;
+}
+
+.final-ul {
+  height: 300px;
+  text-align: left; 
+  width: 550px;
+  list-style: "";
+  font-size: large;
+  margin-left: 250px;
+  margin-top: 35px;
+}
+.final-ul li {
+  padding-bottom:5px ;
+}
